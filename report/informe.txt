@@ -1,0 +1,14 @@
+Informe de Compresor de Huffman
+
+Implementación:
+- Se utilizó un árbol binario de Huffman construido a partir de un mapa de frecuencias.
+- Se implementó un método para serializar el árbol y guardarlo en un archivo .hufftree.
+- Se implementó la codificación y decodificación usando flujo binario.
+
+Decisiones de diseño:
+- El árbol se guarda en preorden con marcadores '*' para nodos internos y caracteres para hojas.
+- Se usa un mapa de códigos para codificar el texto de entrada eficientemente.
+
+Pruebas:
+- Se probaron archivos con diferentes contenidos y tamaños.
+- Se verificó que el archivo descomprimido coincida exactamente con el original.
